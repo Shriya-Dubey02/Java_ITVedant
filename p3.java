@@ -22,9 +22,23 @@ class p3{
 		int a=2;
 		--a;
 		System.out.println(a++);
+		int b=8;
+		System.out.println(b++);
+		System.out.println(b);
+		
+		int p= -26;
+		--p;
+		p++;
+		p++;
+		System.out.println(--p);
+		System.out.println(p);
+
+
+
+
 		
 		// Assignment Operators
-		int c= 5;
+		/*int c= 5;
 		int d= 7;
 		d+=c;
 		System.out.println(d);
@@ -33,6 +47,7 @@ class p3{
 		int n= 7;
 		m-=n;
 		System.out.println(m);
+		*/
 		
 		
 		
