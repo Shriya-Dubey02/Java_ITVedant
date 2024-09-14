@@ -2,11 +2,11 @@ import java.util.*;
 class p32{
 	// NESTED LOOPS
 	public static void main(String args[]){
-		//Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 		int countprime=0;
-		for(int n=1;n<=100;n++)
+		for(int k=1;k<=5;k++)
 	{
-			
+		int n=sc.nextInt();
 		int count=0;
 		for(int i=1;i<=n;i++)
 		{
@@ -19,7 +19,6 @@ class p32{
 	
 		if(count==2)
 		{
-			System.out.println(n);
 			countprime++;
 		}
 		
